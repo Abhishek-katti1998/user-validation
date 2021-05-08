@@ -1,0 +1,35 @@
+.user-container {
+  display: flex;
+  width: 50%;
+  height: 200px;
+  align-items: flex-start;
+  padding: 4px 4px;
+  flex-flow: column;
+  background-color: rgb(120, 206, 120);
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.label {
+  display: flex;
+  align-items: flex-start;
+}
+.input-container {
+  width: 50%;
+  height: 10%;
+  display: flex;
+  padding: 15px 5px;
+  gap: 10px;
+  flex-flow: column;
+}
+.submit-button {
+  margin-top: 10px;
+  width: 100px;
+  border-radius: 20px;
+  background-color: green;
+}
+.submit-button:hover {
+  background-color: rebeccapurple;
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: #282c34;
+  /* opacity: 0.2; */
+}
+.outputContainer {
+  display: flex;
+  height: 70vh;
+  width: 70vw;
+  flex-flow: column wrap;
+  margin: auto;
+  align-items: center;
+  padding: 10px 10px;
+  /* background-color: red; */
+}
